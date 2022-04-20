@@ -1,4 +1,4 @@
-package com.zrulin;
+package com.zrulin.util;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -43,7 +43,7 @@ public class MyTools {
                     // 如果是jar包文件
                     // 定义一个JarFile
                     System.out.println("jar类型的扫描");
-                    JarFile jar;
+                    JarFile jar ;
                     try {
                         // 获取jar
                         jar = ((JarURLConnection) url.openConnection()).getJarFile();
